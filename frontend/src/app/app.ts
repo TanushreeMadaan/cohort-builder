@@ -5,6 +5,8 @@ import { ResultsTable } from './components/results-table/results-table';
 import { StatsSummary } from './components/stats-summary/stats-summary';
 import { FilterChip } from './components/filter-chips/filter-chips';
 import { AmbiguityBanner } from './components/ambiguity-banner/ambiguity-banner';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatIconModule } from '@angular/material/icon';
 import { CohortService } from './services/cohort.service';
 import { QueryResponse } from './models/cohort.model';
 import { normalizeValue } from './utils/normalization';
@@ -18,7 +20,9 @@ import { normalizeValue } from './utils/normalization';
     ResultsTable,
     StatsSummary,
     FilterChip,
-    AmbiguityBanner
+    AmbiguityBanner,
+    MatProgressSpinnerModule,
+    MatIconModule
   ],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
@@ -29,9 +33,10 @@ export class AppComponent {
   originalResults: any[] = [];
   filteredResults: any[] = [];
   activeFilters: any = {};
-  clarificationRequests: any[] = [];
   fullDataset: any[] = [];
-  pendingClarifications: Record<string, any> = {};
+  clarificationRequests: any[] = [];
+  pendingClarifications: Record<string, any | null> = {};
+  isLoading = false;
 
   constructor(private cohortService: CohortService) { }
 
@@ -40,26 +45,52 @@ export class AppComponent {
   }
 
   runQuery(query: string) {
-    this.cohortService.search(query).subscribe(res => {
-      this.response = res;
-  
-      this.originalResults = res.results;
-      this.activeFilters = { ...res.filters };
-  
-      if (res.clarification_requests?.length) {
-        this.filteredResults = res.results;
-        return;
+    this.isLoading = true;
+    this.cohortService.search(query).subscribe({
+      next: (res) => {
+        this.response = res;
+
+        this.originalResults = res.results;
+        this.activeFilters = { ...res.filters };
+
+        this.clarificationRequests = res.clarification_requests ?? [];
+        this.pendingClarifications = {};
+
+        for (const req of this.clarificationRequests) {
+          this.pendingClarifications[req.term] = null;
+        }
+
+        if (this.clarificationRequests.length > 0) {
+          this.filteredResults = this.originalResults;
+          this.isLoading = false;
+          return;
+        }
+
+        this.filteredResults = this.applyLocalFilters(
+          this.originalResults,
+          this.activeFilters
+        );
+
+        this.updateStats();
+        this.isLoading = false;
+      },
+      error: (err) => {
+        console.error('Search error:', err);
+        this.isLoading = false;
       }
-  
-      this.filteredResults = this.applyLocalFilters(
-        this.originalResults,
-        this.activeFilters
-      );
-  
-      this.updateStats();
     });
   }
-  
+
+
+  onClarificationOptionSelected(term: string, optionFilters: any) {
+    this.pendingClarifications[term] = optionFilters;
+  }
+
+  get allClarificationsResolved(): boolean {
+    return Object.values(this.pendingClarifications)
+      .every(v => v !== null);
+  }
+
 
   removeFilter(key: string) {
     delete this.activeFilters[key];
@@ -105,7 +136,7 @@ export class AppComponent {
         );
 
         switch (operator) {
-          
+
           case '=':
             return normalizeValue(key, rowValue) === normalizeValue(key, condition.value);
 
@@ -180,76 +211,26 @@ export class AppComponent {
     };
   }
 
-  resolveAgeAmbiguity(type: 'diagnosis' | 'specimen') {
-    if (!this.activeFilters) return;
+  applyResolvedClarifications() {
+    const resolvedFilters = Object.values(this.pendingClarifications)
+      .filter((f): f is object => f !== null)
+      .reduce((acc, f) => ({ ...acc, ...f }), {});
 
-    const ageKey = Object.keys(this.activeFilters).find(
-      k => k === 'age_at_diagnosis' || k === 'age_at_specimen_acquisition'
-    );
-
-    if (!ageKey) return;
-
-    const ageFilter = this.activeFilters[ageKey];
-
-    delete this.activeFilters[ageKey];
-
-    const newKey =
-      type === 'diagnosis'
-        ? 'age_at_diagnosis'
-        : 'age_at_specimen_acquisition';
-
-    this.activeFilters[newKey] = ageFilter;
-
-    this.filteredResults = this.applyLocalFilters(
-      this.originalResults,
-      this.activeFilters
-    );
-
-    console.log(
-      'Ambiguity resolved:',
-      Object.keys(this.activeFilters),
-      'Rows:',
-      this.filteredResults.length
-    );
-
-    this.updateStats();
-  }
-
-  applyClarification(optionFilters: any) {
-    // Merge clarification filters
     this.activeFilters = {
       ...this.activeFilters,
-      ...optionFilters
+      ...resolvedFilters
     };
-  
+
     this.filteredResults = this.applyLocalFilters(
       this.originalResults,
       this.activeFilters
     );
-  
+
     this.updateStats();
+
+    // Clear ambiguity UI
+    this.clarificationRequests = [];
+    this.pendingClarifications = {};
   }
 
-  onClarificationResolved(newFilters: any) {
-    // 1. Merge filters
-    this.activeFilters = {
-      ...this.activeFilters,
-      ...newFilters
-    };
-  
-    // 2. Apply filtering
-    this.filteredResults = this.applyLocalFilters(
-      this.originalResults,
-      this.activeFilters
-    );
-  
-    // 3. Update stats
-    this.updateStats();
-  
-    // 4. Remove ALL clarifications once user acts
-    if (this.response) {
-      this.response.clarification_requests = [];
-    }
-  }
-  
 }

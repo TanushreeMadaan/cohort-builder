@@ -3,19 +3,31 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 8px;
-    margin: 12px 0 20px;
-  }
-  
-  mat-chip {
+    margin-bottom: 16px;
+}
+
+mat-chip {
     background: #eef2ff;
-    color: #1e3a8a;
+    color: #3730a3;
     font-size: 13px;
-  }
-  
-  .clear-all {
+    font-weight: 500;
+    padding: 4px 12px;
+    height: auto;
+    min-height: 32px;
+}
+
+.clear-all {
     margin-left: auto;
     font-size: 13px;
-    color: var(--danger);
+    color: var(--danger, #dc2626);
     cursor: pointer;
-  }
-  
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.clear-all:hover {
+    background: #fee2e2;
+    color: #b91c1c;
+}

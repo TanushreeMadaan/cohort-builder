@@ -3,6 +3,10 @@
     <h1>Cohort Builder</h1>
     <p class="subtitle">Search patient cohorts using natural language</p>
     <app-search-bar (search)="runQuery($event)"></app-search-bar>
+    <div *ngIf="isLoading" class="loading-container">
+      <mat-spinner diameter="40"></mat-spinner>
+      <p class="loading-text">Searching...</p>
+    </div>
   </header>
 
   <section class="filters">
@@ -10,11 +14,19 @@
     </app-filter-chip>
 
     <app-ambiguity-banner
-  *ngIf="response?.clarification_requests?.length"
-  [requests]="response!.clarification_requests"
-  (resolve)="onClarificationResolved($event)">
+  *ngIf="clarificationRequests.length"
+  [requests]="clarificationRequests"
+  [selected]="pendingClarifications"
+  (optionSelected)="onClarificationOptionSelected($event.term, $event.filters)">
 </app-ambiguity-banner>
 
+<button
+  class="apply-clarifications-btn"
+  *ngIf="clarificationRequests.length"
+  [disabled]="!allClarificationsResolved"
+  (click)="applyResolvedClarifications()">
+  Apply filters
+</button>
   </section>
 
   <section class="stats" *ngIf="response">
@@ -23,5 +35,13 @@
 
   <section class="results" *ngIf="filteredResults.length">
     <app-results-table [results]="filteredResults"></app-results-table>
+  </section>
+
+  <section class="no-results" *ngIf="response && filteredResults.length === 0 && !isLoading">
+    <div class="no-results-content">
+      <mat-icon class="no-results-icon">search_off</mat-icon>
+      <h3>No matches found</h3>
+      <p>Try adjusting your filters or search criteria.</p>
+    </div>
   </section>
 </div>

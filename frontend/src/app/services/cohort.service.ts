@@ -5,14 +5,14 @@ import { QueryResponse } from '../models/cohort.model';
 
 @Injectable({ providedIn: 'root' })
 export class CohortService {
-  private baseUrl = 'http://localhost:3001/api';
+    private baseUrl = 'http://localhost:3001/api';
 
-  loading$ = new BehaviorSubject<boolean>(false);
+    loading$ = new BehaviorSubject<boolean>(false);
 
-  constructor(private http: HttpClient) {}
+    constructor(private http: HttpClient) { }
 
-  search(query: string): Observable<QueryResponse> {
-    this.loading$.next(true);
-    return this.http.post<QueryResponse>(`${this.baseUrl}/query`, { query });
-  }
+    search(query: string): Observable<QueryResponse> {
+        this.loading$.next(true);
+        return this.http.post<QueryResponse>(`${this.baseUrl}/query`, { query });
+    }
 }

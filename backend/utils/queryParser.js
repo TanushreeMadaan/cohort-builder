@@ -3,14 +3,14 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 const model = genAI.getGenerativeModel({
-  model: "gemini-3-flash-preview"
+    model: "gemini-3-flash-preview"
 });
 
 /**
  * Build prompt for LLM
  */
 function buildPrompt(userInput, columns) {
-  return `
+    return `
 You are a medical cohort query parser.
 
 Your responsibilities:
@@ -82,23 +82,23 @@ You MUST NOT ignore such terms.
  * Parse natural language query using Gemini
  */
 async function parseUserQuery(userInput, columns) {
-  try {
-    const prompt = buildPrompt(userInput, columns);
-    const result = await model.generateContent(prompt);
+    try {
+        const prompt = buildPrompt(userInput, columns);
+        const result = await model.generateContent(prompt);
 
-    const text = result.response.text();
-    const jsonStart = text.indexOf("{");
-    const jsonEnd = text.lastIndexOf("}");
+        const text = result.response.text();
+        const jsonStart = text.indexOf("{");
+        const jsonEnd = text.lastIndexOf("}");
 
-    if (jsonStart === -1 || jsonEnd === -1) {
-      throw new Error("Invalid JSON returned by Gemini");
+        if (jsonStart === -1 || jsonEnd === -1) {
+            throw new Error("Invalid JSON returned by Gemini");
+        }
+
+        return JSON.parse(text.slice(jsonStart, jsonEnd + 1));
+    } catch (error) {
+        console.error("Gemini parsing failed:", error);
+        throw new Error("Failed to parse query using Gemini");
     }
-
-    return JSON.parse(text.slice(jsonStart, jsonEnd + 1));
-  } catch (error) {
-    console.error("Gemini parsing failed:", error);
-    throw new Error("Failed to parse query using Gemini");
-  }
 }
 
 module.exports = { parseUserQuery };

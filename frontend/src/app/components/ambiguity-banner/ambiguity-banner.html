@@ -1,12 +1,15 @@
 <div *ngFor="let req of requests" class="clarification-block">
-    <p class="message">{{ req.message }}</p>
-  
-    <div class="options">
-      <button
-        *ngFor="let option of req.options"
-        (click)="resolve.emit(option.filters)">
-        {{ option.label }}
-      </button>
+
+    <div class="clarification-label">
+        {{ req.reason }}
     </div>
-  </div>
-  
+
+    <div class="clarification-options">
+        <button *ngFor="let option of req.options" class="clarification-btn"
+            [class.selected]="isSelected(req.term, option.filter)" (click)="selectOption(req.term, option.filter)">
+
+            {{ option.label }}
+        </button>
+    </div>
+
+</div>

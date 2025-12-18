@@ -1,25 +1,30 @@
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 16px;
-    margin-bottom: 24px;
-  }
-  
-  .stat-card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 16px;
-  }
-  
-  .stat-label {
-    font-size: 13px;
-    color: var(--muted);
-  }
-  
-  .stat-value {
-    font-size: 22px;
+table {
+    width: 100%;
+    background: var(--card, #ffffff);
+}
+
+.mat-mdc-header-row {
+    background: #f9fafb;
+}
+
+.mat-mdc-header-cell {
     font-weight: 600;
-    margin-top: 4px;
-  }
-  
+    color: var(--text, #111827);
+    font-size: 14px;
+}
+
+.mat-mdc-cell {
+    color: var(--text, #111827);
+    font-size: 14px;
+}
+
+.mat-elevation-z2 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius, 10px);
+    overflow: hidden;
+}
+
+mat-paginator {
+    background: var(--card, #ffffff);
+    border-top: 1px solid var(--border, #e5e7eb);
+}

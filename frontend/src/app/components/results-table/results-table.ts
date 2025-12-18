@@ -20,7 +20,7 @@ import { MatTableDataSource } from '@angular/material/table';
 export class ResultsTable implements AfterViewInit {
   @Input() set results(data: any[]) {
     this.dataSource.data = data || [];
-  
+
     if (this.paginator) {
       this.dataSource.paginator = this.paginator;
     }

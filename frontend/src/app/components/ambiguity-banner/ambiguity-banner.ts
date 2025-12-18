@@ -1,6 +1,10 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ClarificationRequest, FilterObject } from '../../models/cohort.model';
+
+export interface ClarificationOptionSelectedEvent {
+  term: string;
+  filters: any;
+}
 
 @Component({
   selector: 'app-ambiguity-banner',
@@ -10,10 +14,17 @@ import { ClarificationRequest, FilterObject } from '../../models/cohort.model';
   styleUrls: ['./ambiguity-banner.css']
 })
 export class AmbiguityBanner {
-  @Input() requests!: ClarificationRequest[];
-  @Output() resolve = new EventEmitter<any>();
+  @Input() requests: any[] = [];
+  @Input() selected: Record<string, any | null> = {};
 
-  choose(optionFilters: FilterObject) {
-    this.resolve.emit(optionFilters);
+  @Output()
+  optionSelected = new EventEmitter<ClarificationOptionSelectedEvent>();
+
+  selectOption(term: string, filters: any) {
+    this.optionSelected.emit({ term, filters });
+  }
+
+  isSelected(term: string, optionFilters: any): boolean {
+    return JSON.stringify(this.selected[term]) === JSON.stringify(optionFilters);
   }
 }
