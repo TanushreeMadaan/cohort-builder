@@ -5,7 +5,7 @@ import { QueryResponse } from '../models/cohort.model';
 
 @Injectable({ providedIn: 'root' })
 export class CohortService {
-    private baseUrl = 'http://localhost:3001/api';
+    private baseUrl = 'https://cohort-builder-7jqu.onrender.com';
 
     loading$ = new BehaviorSubject<boolean>(false);
 
