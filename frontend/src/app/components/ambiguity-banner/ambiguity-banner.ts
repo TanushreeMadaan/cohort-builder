@@ -1,14 +1,19 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatIconModule } from '@angular/material/icon';
+import { ClarificationRequest, FilterObject } from '../../models/cohort.model';
 
 @Component({
   selector: 'app-ambiguity-banner',
   standalone: true,
-  imports: [CommonModule, MatIconModule],
-  templateUrl: './ambiguity-banner.html'
+  imports: [CommonModule],
+  templateUrl: './ambiguity-banner.html',
+  styleUrls: ['./ambiguity-banner.css']
 })
 export class AmbiguityBanner {
-  @Input() ambiguities: string[] = [];
-  @Input() assumptions: string[] = [];
+  @Input() requests!: ClarificationRequest[];
+  @Output() resolve = new EventEmitter<any>();
+
+  choose(optionFilters: FilterObject) {
+    this.resolve.emit(optionFilters);
+  }
 }

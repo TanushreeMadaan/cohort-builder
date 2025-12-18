@@ -14,11 +14,19 @@ import { MatTableDataSource } from '@angular/material/table';
     MatPaginatorModule,
     MatSortModule
   ],
-  templateUrl: './results-table.html'
+  templateUrl: './results-table.html',
+  styleUrls: ['./results-table.css']
 })
 export class ResultsTable implements AfterViewInit {
   @Input() set results(data: any[]) {
     this.dataSource.data = data || [];
+  
+    if (this.paginator) {
+      this.dataSource.paginator = this.paginator;
+    }
+    if (this.sort) {
+      this.dataSource.sort = this.sort;
+    }
   }
 
   displayedColumns: string[] = [

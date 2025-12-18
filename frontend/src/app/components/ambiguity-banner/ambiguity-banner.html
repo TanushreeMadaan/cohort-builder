@@ -1,15 +1,12 @@
-<div *ngIf="ambiguities.length" class="warning">
-    <mat-icon>warning</mat-icon>
-    <strong>Ambiguities detected</strong>
-    <ul>
-      <li *ngFor="let a of ambiguities">{{ a }}</li>
-    </ul>
-  </div>
+<div *ngFor="let req of requests" class="clarification-block">
+    <p class="message">{{ req.message }}</p>
   
-  <div *ngIf="assumptions.length" class="assumptions">
-    <strong>Assumptions made</strong>
-    <ul>
-      <li *ngFor="let a of assumptions">{{ a }}</li>
-    </ul>
+    <div class="options">
+      <button
+        *ngFor="let option of req.options"
+        (click)="resolve.emit(option.filters)">
+        {{ option.label }}
+      </button>
+    </div>
   </div>
   

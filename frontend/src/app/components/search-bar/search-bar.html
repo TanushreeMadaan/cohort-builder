@@ -1,14 +1,11 @@
-<mat-form-field appearance="outline" class="full-width">
-    <mat-label>Search patients</mat-label>
+<div class="search-bar">
     <input
-      matInput
+      type="text"
+      placeholder="eg. female patients over 60"
       [(ngModel)]="query"
-      (keyup.enter)="search()"
-      placeholder="e.g. female patients over 60"
+      (keyup.enter)="submit()"
     />
-  </mat-form-field>
   
-  <button mat-raised-button color="primary" (click)="search()">
-    Search
-  </button>
+    <button (click)="submit()">Search</button>
+  </div>
   

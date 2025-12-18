@@ -3,20 +3,29 @@ export interface FilterCondition {
     value: any;
   }
   
+  export interface FilterObject {
+    [key: string]: FilterCondition;
+  }
+  
+  export interface ClarificationOption {
+    label: string;
+    filters: Record<string, any>;
+  }
+  
+  export interface ClarificationRequest {
+    message: string;
+    options: ClarificationOption[];
+  }
+  
   export interface QueryResponse {
     query: string;
-    filters: Record<string, FilterCondition>;
+    filters: FilterObject;
+    results: any[];
     count: number;
     stats: any;
-    verification: {
-      verified: boolean;
-      issues: string[];
-    };
-    excluded_due_to_missing_fields: number;
-    ambiguities: string[];
-    assumptions: string[];
+  
+    clarification_requests: ClarificationRequest[];
+    assumptions?: string[];
     confidence: number;
-    clarification_needed: boolean;
-    results: any[];
   }
   

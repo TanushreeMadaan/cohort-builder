@@ -1,0 +1,28 @@
+.ambiguity-banner {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    padding: 12px 16px;
+    border-radius: var(--radius);
+    margin-bottom: 16px;
+  }
+  
+  .ambiguity-banner p {
+    margin: 0 0 8px;
+    color: #9a3412;
+    font-size: 14px;
+  }
+  
+  .ambiguity-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .ambiguity-actions button {
+    background: white;
+    border: 1px solid #fdba74;
+    color: #9a3412;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

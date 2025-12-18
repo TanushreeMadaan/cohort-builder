@@ -6,7 +6,8 @@ import { MatCardModule } from '@angular/material/card';
   selector: 'app-stats-summary',
   standalone: true,
   imports: [CommonModule, MatCardModule],
-  templateUrl: './stats-summary.html'
+  templateUrl: './stats-summary.html',
+  styleUrls: ['./stats-summary.css']
 })
 export class StatsSummary {
   @Input() stats: any;

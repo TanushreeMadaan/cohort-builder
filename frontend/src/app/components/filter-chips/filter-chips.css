@@ -1,0 +1,21 @@
+.filter-chips {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0 20px;
+  }
+  
+  mat-chip {
+    background: #eef2ff;
+    color: #1e3a8a;
+    font-size: 13px;
+  }
+  
+  .clear-all {
+    margin-left: auto;
+    font-size: 13px;
+    color: var(--danger);
+    cursor: pointer;
+  }
+  

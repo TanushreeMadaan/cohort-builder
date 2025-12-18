@@ -1,26 +1,26 @@
 <div *ngIf="stats" class="stats-grid">
 
-    <mat-card>
-      <h3>Total Results</h3>
-      <p>{{ stats.count }}</p>
+    <mat-card class="stat-card">
+      <h3 class="stat-label">Total Results</h3>
+      <p class="stat-value">{{ stats.count }}</p>
     </mat-card>
   
-    <mat-card>
-      <h3>Age at Diagnosis</h3>
+    <mat-card class="stat-card">
+      <h3 class="stat-label">Age at Diagnosis</h3>
       <p>Min: {{ stats.age.diagnosis.min }}</p>
       <p>Max: {{ stats.age.diagnosis.max }}</p>
       <p>Avg: {{ stats.age.diagnosis.avg }}</p>
     </mat-card>
   
-    <mat-card>
-      <h3>Age at Specimen</h3>
+    <mat-card class="stat-card">
+      <h3 class="stat-label">Age at Specimen</h3>
       <p>Min: {{ stats.age.specimen.min }}</p>
       <p>Max: {{ stats.age.specimen.max }}</p>
       <p>Avg: {{ stats.age.specimen.avg }}</p>
     </mat-card>
   
-    <mat-card>
-      <h3>Gender Breakdown</h3>
+    <mat-card class="stat-card">
+      <h3 class="stat-label">Gender Breakdown</h3>
       <div *ngFor="let g of stats.genderBreakdown | keyvalue">
         {{ g.key }}: {{ g.value }}
       </div>

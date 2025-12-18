@@ -1,20 +1,27 @@
-<h1>Cohort Builder</h1>
+<div class="app-wrapper">
+  <header class="header">
+    <h1>Cohort Builder</h1>
+    <p class="subtitle">Search patient cohorts using natural language</p>
+    <app-search-bar (search)="runQuery($event)"></app-search-bar>
+  </header>
 
-<app-search-bar (searchQuery)="runQuery($event)"></app-search-bar>
+  <section class="filters">
+    <app-filter-chip [filters]="activeFilters" (remove)="removeFilter($event)" (clear)="clearAllFilters()">
+    </app-filter-chip>
 
-<app-filter-chips
-  *ngIf="response"
-  [filters]="response.filters"
-  (removeFilter)="removeFilter($event)"
-  (clearAll)="clearAllFilters()">
-</app-filter-chips>
-
-<app-ambiguity-banner
-  *ngIf="response"
-  [ambiguities]="response.ambiguities"
-  [assumptions]="response.assumptions">
+    <app-ambiguity-banner
+  *ngIf="response?.clarification_requests?.length"
+  [requests]="response!.clarification_requests"
+  (resolve)="onClarificationResolved($event)">
 </app-ambiguity-banner>
 
-<app-stats-summary *ngIf="response" [stats]="response.stats"></app-stats-summary>
+  </section>
 
-<app-results-table *ngIf="response" [results]="response.results"></app-results-table>
+  <section class="stats" *ngIf="response">
+    <app-stats-summary [stats]="response.stats"></app-stats-summary>
+  </section>
+
+  <section class="results" *ngIf="filteredResults.length">
+    <app-results-table [results]="filteredResults"></app-results-table>
+  </section>
+</div>

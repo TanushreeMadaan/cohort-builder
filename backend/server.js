@@ -27,6 +27,26 @@ let DATASET = null;
     }
 })();
 
+function enrichColumnsWithExamples(rows, columns) {
+    const enriched = {};
+  
+    for (const col of Object.keys(columns)) {
+      const values = new Set();
+  
+      for (const r of rows) {
+        if (r[col]) values.add(String(r[col]));
+        if (values.size >= 5) break;
+      }
+  
+      enriched[col] = {
+        type: columns[col],
+        examples: Array.from(values)
+      };
+    }
+  
+    return enriched;
+}
+
 app.get("/health", (req, res) => {
     res.json({ status: "OK",
         datasetLoaded: !!DATASET,
@@ -51,35 +71,47 @@ app.post("/api/query", async (req, res) => {
         if (!query || typeof query !== "string") {
             return res.status(400).json({ error: "Invalid query" });
         }
-    
-        const parsed = await parseUserQuery(query, DATASET.columns);
-        const { results, excludedMissing } = applyFilters(
+
+        const enrichedColumns = enrichColumnsWithExamples(
             DATASET.rows,
-            parsed.filters
+            DATASET.columns
           );
-          
+    
+        const parsed = await parseUserQuery(query, enrichedColumns);
+
+        if (parsed.clarification_requests?.length) {
+            return res.json({
+              query,
+              filters: parsed.filters || {},
+              clarification_requests: parsed.clarification_requests,
+              assumptions: parsed.assumptions || [],
+              confidence: parsed.confidence,
+              results: DATASET.rows,
+              count: 0,
+              stats: null
+            });
+          }
+        
+        const results = DATASET.rows
         const stats = computeStats(results);
         const verification = verifyQuery(parsed.filters, stats);
   
         res.json({
             query,
             filters: parsed.filters,
-            count: results.length,
-            stats,
-            verification,
-            excluded_due_to_missing_fields: excludedMissing,
             results,
+            count: results.length,
             ambiguities: parsed.ambiguities,
             assumptions: parsed.assumptions,
             confidence: parsed.confidence,
             clarification_needed: parsed.clarification_needed
-        });
+          });
+          
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: error.message });
     }
 });
-  
 
 app.listen(PORT, () => {
     console.log(`Backend running on http://localhost:${PORT}`);
