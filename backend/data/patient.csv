@@ -1,0 +1,806 @@
+patient_id,centre_id,cohort,gender,self_reported_race,self_reported_ethnicity,age_at_diagnosis,prior_malignancy,publication
+2757,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2607,1,Waves3+4,Male,White,NON-HISPANIC,54,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2388,1,Waves1+2,Male,White,NON-HISPANIC,69,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2414,1,Waves1+2,Female,White,UNKNOWN,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2245,2,Waves1+2,Male,Unknown,,52,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2390,6,Waves1+2,Male,White,HISPANIC,25,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2631,8,Waves3+4,Female,White,NON-HISPANIC,75,Endometrial cancer|Lobular carcinoma in situ,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2694,1,Waves3+4,Male,White,NON-HISPANIC,22,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2558,1,Waves1+2,Male,White,NON-HISPANIC,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2048,1,Waves1+2,Male,White,NON-HISPANIC,29,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2452,2,Waves1+2,Female,,,53,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2674,1,Waves3+4,Male,White,NON-HISPANIC,79,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2625,1,Waves3+4,Male,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2218,1,Waves1+2,Male,White,NON-HISPANIC,24,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2273,3,Waves1+2,Female,,,80,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2228,3,Waves1+2,Female,,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2716,1,Waves3+4,Male,White,NON-HISPANIC,82,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2295,1,Waves1+2,Male,White,NON-HISPANIC,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2811,5,Waves3+4,Female,White,,26,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2287,3,Waves1+2,Male,White,,56,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2612,1,Waves3+4,Male,White,NON-HISPANIC,54,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2071,4,Waves1+2,Male,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2047,3,Waves1+2,Male,,,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2009,1,Waves1+2,Male,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2708,5,Waves3+4,Female,White,,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2255,1,Waves1+2,Female,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2124,1,Waves1+2,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2192,2,Waves1+2,Male,White,,81,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2107,2,Waves1+2,Male,White,,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2056,5,Waves1+2,Male,,,69,Squamous cell carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2805,1,Waves3+4,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2307,5,Waves1+2,Male,White,,50,Hodgkin Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2791,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2328,1,Waves1+2,Female,White,NON-HISPANIC,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2420,1,Waves1+2,Female,White,NON-HISPANIC,76,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2015,1,Waves1+2,Female,White,NON-HISPANIC,22,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2680,1,Waves3+4,Female,White,NON-HISPANIC,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2100,5,Waves1+2,Male,White,,39,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2324,5,Waves1+2,Female,,,53,Ovarian cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2374,1,Waves1+2,Male,Asian,NON-HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2179,1,Waves1+2,Male,White,NON-HISPANIC,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2055,4,Waves1+2,Female,,,35,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2407,1,Waves1+2,Female,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2174,5,Waves1+2,Female,,,83,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2789,3,Waves3+4,Male,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2826,1,Waves3+4,Male,White,NON-HISPANIC,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2166,1,Waves1+2,Male,White,NON-HISPANIC,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2445,3,Waves1+2,Female,,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2177,6,Waves1+2,Female,,,30,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2208,6,Waves1+2,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2536,1,Waves1+2,Female,White,NON-HISPANIC,83,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2599,6,Waves3+4,Male,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2230,4,Waves1+2,Male,,,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2423,1,Waves1+2,Female,White,NON-HISPANIC,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2215,1,Waves1+2,Male,White,NON-HISPANIC,64,Esophageal Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2087,1,Waves1+2,Male,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2074,6,Waves1+2,Female,,,25,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2196,2,Waves1+2,Male,Asian,,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2552,5,Waves1+2,Male,,,76,Basal Cell Carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2521,1,Waves1+2,Male,White,NON-HISPANIC,83,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2465,4,Waves1+2,Male,,,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2467,1,Waves1+2,Female,White,NON-HISPANIC,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2090,1,Waves1+2,Female,White,NON-HISPANIC,24,Hodgkin Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2280,3,Waves1+2,Male,White,,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2267,1,Waves1+2,Male,White,NON-HISPANIC,57,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2673,1,Waves3+4,Female,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2615,1,Waves3+4,Female,White,NON-HISPANIC,48,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2823,8,Waves3+4,Male,White,,76,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2241,2,Waves1+2,Female,,,57,Ovarian cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2632,5,Waves3+4,Female,White,,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2567,4,Waves1+2,Female,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2487,1,Waves1+2,Female,Black,NON-HISPANIC,36,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2709,2,Waves3+4,Female,Asian,,45,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2553,7,Waves1+2,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2689,8,Waves3+4,Female,White,,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2440,6,Waves1+2,Male,White,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2073,5,Waves1+2,Male,,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2728,5,Waves3+4,Female,White,,60,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2692,3,Waves3+4,Female,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2662,5,Waves3+4,Female,White,,88,Uterine Sarcoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2706,1,Waves3+4,Male,Black,NON-HISPANIC,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2691,6,Waves3+4,Female,,HISPANIC,29,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2343,1,Waves1+2,Male,White,NON-HISPANIC,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2478,6,Waves1+2,Male,White,NON-HISPANIC,71,Non-Hodgkins Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2718,1,Waves3+4,Male,White,NON-HISPANIC,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2235,3,Waves1+2,Male,,,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2459,2,Waves1+2,Female,,,40,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2281,2,Waves1+2,Male,White,NON-HISPANIC,71,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2435,1,Waves1+2,Male,PacificIslander,NON-HISPANIC,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2413,1,Waves1+2,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2663,1,Waves3+4,Female,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2733,8,Waves3+4,Male,Black,,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2346,2,Waves1+2,Female,Unknown,,30,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2156,6,Waves1+2,Female,White,NON-HISPANIC,76,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2377,5,Waves1+2,Male,Black,,33,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2509,1,Waves1+2,Male,Asian,NON-HISPANIC,8,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2762,2,Waves3+4,Female,White,NON-HISPANIC,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2799,1,Waves3+4,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2666,3,Waves3+4,Female,White,,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2621,1,Waves3+4,Male,White,NON-HISPANIC,73,Melanoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2165,2,Waves1+2,Male,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2507,1,Waves1+2,Female,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2138,3,Waves1+2,Male,White,,26,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2715,5,Waves3+4,Male,,HISPANIC,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2586,5,Waves1+2,Male,,,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2381,3,Waves1+2,Male,,,73,Lung Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2729,2,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2425,1,Waves1+2,Male,White,NON-HISPANIC,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2483,1,Waves1+2,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2601,8,Waves3+4,Male,White,,71,Skin cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2339,1,Waves1+2,Female,White,NON-HISPANIC,18,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2495,2,Waves1+2,Female,,,57,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2779,1,Waves3+4,Male,White,NON-HISPANIC,49,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2007,1,Waves1+2,Male,White,NON-HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2752,1,Waves3+4,Female,White,NON-HISPANIC,27,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2207,1,Waves1+2,Female,Multiracial,HISPANIC,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2300,4,Waves1+2,Male,,,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2800,1,Waves3+4,Male,White,NON-HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2766,7,Waves3+4,Male,,HISPANIC,21,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2210,6,Waves1+2,Male,Multiracial,,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2393,1,Waves1+2,Female,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2747,1,Waves3+4,Male,White,NON-HISPANIC,61,Skin cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2816,1,Waves3+4,Male,White,NON-HISPANIC,75,Squamous cell carcinoma|Renal cell carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2682,1,Waves3+4,Male,White,NON-HISPANIC,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2647,7,Waves3+4,Female,White,,45,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2563,3,Waves1+2,Male,,,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2322,2,Waves1+2,Male,White,,78,Esophageal Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2657,1,Waves3+4,Female,Asian,NON-HISPANIC,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2653,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2271,1,Waves1+2,Female,White,NON-HISPANIC,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2356,1,Waves1+2,Male,White,NON-HISPANIC,36,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2450,3,Waves1+2,Female,,,60,Adenocarcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2446,1,Waves1+2,Male,White,NON-HISPANIC,54,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2298,1,Waves1+2,Male,White,NON-HISPANIC,78,Bladder Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2082,1,Waves1+2,Male,White,NON-HISPANIC,54,Other malignant neoplasm without specification of site,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2448,1,Waves1+2,Female,White,NON-HISPANIC,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2104,1,Waves1+2,Male,White,HISPANIC,45,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2556,1,Waves1+2,Female,White,NON-HISPANIC,69,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2327,2,Waves1+2,Male,Black,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2037,3,Waves1+2,Male,,,79,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2190,1,Waves1+2,Female,White,NON-HISPANIC,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2582,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2444,5,Waves1+2,Female,White,,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2143,6,Waves1+2,Male,White,,64,Hodgkin Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2397,2,Waves1+2,Male,,,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2503,1,Waves1+2,Male,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2530,6,Waves1+2,Female,,HISPANIC,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2338,3,Waves1+2,Male,,,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2118,4,Waves1+2,Female,,,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2065,3,Waves1+2,Male,,,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2140,6,Waves1+2,Female,,,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2822,1,Waves3+4,Female,AmericanIndian,NON-HISPANIC,58,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2122,1,Waves1+2,Male,White,NON-HISPANIC,48,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2249,1,Waves1+2,Female,White,NON-HISPANIC,41,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2720,1,Waves3+4,Male,White,NON-HISPANIC,74,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2670,1,Waves3+4,Female,White,NON-HISPANIC,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2345,1,Waves1+2,Male,White,NON-HISPANIC,17,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2352,1,Waves1+2,Female,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2294,2,Waves1+2,Male,Unknown,NON-HISPANIC,80,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2626,1,Waves3+4,Female,White,NON-HISPANIC,27,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2808,1,Waves3+4,Male,White,NON-HISPANIC,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2147,3,Waves1+2,Female,,,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2610,1,Waves3+4,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2494,1,Waves1+2,Male,White,NON-HISPANIC,85,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2171,1,Waves1+2,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2320,1,Waves1+2,Male,White,NON-HISPANIC,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2545,1,Waves1+2,Female,White,NON-HISPANIC,81,Anal carcinoma|Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2262,1,Waves1+2,Female,White,HISPANIC,28,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2378,1,Both,Male,White,NON-HISPANIC,83,Colon Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2095,3,Waves1+2,Female,,,55,Multiple Sclerosis,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2199,1,Waves1+2,Male,White,NON-HISPANIC,57,Brain Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2024,1,Waves1+2,Male,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2046,1,Waves1+2,Female,Unknown,UNKNOWN,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2126,2,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2735,6,Waves3+4,Female,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2293,5,Waves1+2,Male,,,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2524,5,Waves1+2,Female,,,54,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2504,3,Waves1+2,Male,,,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2429,1,Waves1+2,Female,PacificIslander,NON-HISPANIC,30,Acute Promyelocytic Leukemia,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2336,4,Waves1+2,Female,,,78,Uterine Sarcoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2614,1,Waves3+4,Male,White,NON-HISPANIC,60,Basal Cell Carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2646,3,Waves3+4,Male,,,68,Non-Hodgkins Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2600,3,Waves3+4,Female,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2760,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2276,6,Waves1+2,Male,,,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2656,2,Waves3+4,Female,White,,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2573,2,Waves1+2,Male,,,26,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2275,2,Waves1+2,Male,Unknown,,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2112,2,Waves1+2,Male,,,17,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2006,2,Waves1+2,Female,,,62,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2470,5,Waves1+2,Female,,,33,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2290,4,Waves1+2,Female,,,79,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2278,1,Waves1+2,Male,Multiracial,HISPANIC,24,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2030,1,Waves1+2,Male,White,NON-HISPANIC,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2745,1,Waves3+4,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2474,3,Waves1+2,Female,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2088,1,Waves1+2,Female,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2094,1,Waves1+2,Female,White,NON-HISPANIC,58,Basal Cell Carcinoma|Squamous cell carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2661,1,Waves3+4,Female,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2306,1,Waves1+2,Male,White,NON-HISPANIC,64,Mature B-Cell Neoplasm,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2004,1,Waves1+2,Male,White,NON-HISPANIC,75,Rectal Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2128,2,Waves1+2,Female,,,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2543,4,Waves1+2,Female,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2368,1,Waves1+2,Female,White,NON-HISPANIC,36,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2040,1,Waves1+2,Female,White,NON-HISPANIC,34,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2724,5,Waves3+4,Male,White,,69,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2142,1,Waves1+2,Male,Multiracial,NON-HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2401,1,Waves1+2,Female,White,NON-HISPANIC,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2109,2,Waves1+2,Female,,,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2258,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2497,1,Waves1+2,Female,White,HISPANIC,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2086,6,Both,Male,White,NON-HISPANIC,57,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2404,1,Waves1+2,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2654,1,Waves3+4,Female,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2486,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2761,1,Waves3+4,Female,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2723,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2321,1,Waves1+2,Female,Unknown,UNKNOWN,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2449,2,Waves1+2,Female,,,74,Uterine Sarcoma|Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2531,1,Waves1+2,Male,Declined,NON-HISPANIC,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2769,5,Waves3+4,Male,White,,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2108,2,Waves1+2,Male,,,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2639,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2284,1,Waves1+2,Female,White,NON-HISPANIC,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2036,2,Waves1+2,Male,,,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2039,1,Waves1+2,Female,White,NON-HISPANIC,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2005,1,Both,Male,White,NON-HISPANIC,52,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2018,6,Waves1+2,Female,Black,,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2134,4,Waves1+2,Female,,,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2570,3,Both,Female,,,39,Cervical Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2539,3,Waves1+2,Male,,,62,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2083,1,Waves1+2,Female,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2633,1,Waves3+4,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2316,4,Waves1+2,Male,White,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2187,2,Waves1+2,Female,Black,NON-HISPANIC,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2660,1,Waves3+4,Male,White,UNKNOWN,23,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2129,1,Waves1+2,Male,White,NON-HISPANIC,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2003,2,Waves1+2,Male,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2160,4,Waves1+2,Female,,,22,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2546,2,Waves1+2,Male,Asian,,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2363,5,Waves1+2,Male,White,,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2635,1,Waves3+4,Male,White,NON-HISPANIC,41,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2008,1,Waves1+2,Male,White,NON-HISPANIC,48,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2684,1,Waves3+4,Male,White,NON-HISPANIC,18,B lymphoblastic leukaemia/lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2263,5,Waves1+2,Male,,,76,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2025,1,Waves1+2,Male,White,NON-HISPANIC,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2517,1,Waves1+2,Male,White,NON-HISPANIC,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2080,1,Waves1+2,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2412,2,Waves1+2,Male,Unknown,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2251,1,Waves1+2,Female,White,NON-HISPANIC,52,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2351,3,Waves1+2,Female,,,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2528,2,Waves1+2,Female,White,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2596,8,Waves3+4,Male,White,NON-HISPANIC,33,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2237,5,Waves1+2,Male,,,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2698,8,Waves3+4,Female,White,NON-HISPANIC,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2722,1,Waves3+4,Female,Multiracial,NON-HISPANIC,4,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2464,5,Waves1+2,Male,,,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2366,1,Waves1+2,Male,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2148,4,Waves1+2,Male,,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2480,2,Waves1+2,Male,,,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2170,1,Waves1+2,Female,White,NON-HISPANIC,43,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2792,1,Waves3+4,Female,White,HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2205,4,Waves1+2,Male,,,85,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2406,1,Waves1+2,Female,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2534,3,Waves1+2,Male,,,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2332,2,Waves1+2,Male,White,,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2149,4,Waves1+2,Female,,,27,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2575,1,Waves1+2,Female,White,HISPANIC,40,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2815,5,Waves3+4,Female,White,,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2274,4,Waves1+2,Male,Asian,NON-HISPANIC,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2775,8,Waves3+4,Female,Black,NON-HISPANIC,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2239,3,Waves1+2,Female,,,33,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2372,2,Both,Female,Black,,43,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2469,2,Waves1+2,Female,Black,NON-HISPANIC,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2410,1,Waves1+2,Female,White,NON-HISPANIC,82,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2035,2,Waves1+2,Male,Asian,,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2818,5,Waves3+4,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2335,7,Waves1+2,Male,White,NON-HISPANIC,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2533,2,Waves1+2,Male,Unknown,,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2669,7,Waves3+4,Male,White,,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2580,1,Waves1+2,Female,White,NON-HISPANIC,32,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2189,1,Waves1+2,Male,White,NON-HISPANIC,42,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2350,2,Waves1+2,Male,,,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2395,6,Waves1+2,Male,White,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2776,1,Waves3+4,Male,White,NON-HISPANIC,42,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2562,1,Waves1+2,Female,White,NON-HISPANIC,71,Basal Cell Carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2017,1,Waves1+2,Male,White,NON-HISPANIC,55,Other malignant neoplasm without specification of site,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2369,1,Waves1+2,Male,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2819,1,Waves3+4,Male,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2756,1,Waves3+4,Male,White,UNKNOWN,64,Amyloid angiopathy|Basal Cell Carcinoma|Bladder Cancer|Monoclonal Gammopathy of Undetermined Significance (MGUS),https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2313,1,Both,Male,White,NON-HISPANIC,68,Lung Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2193,1,Waves1+2,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2240,5,Waves1+2,Female,,,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2340,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2261,2,Waves1+2,Female,,,79,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2212,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2012,4,Waves1+2,Female,,,48,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2755,1,Waves3+4,Female,White,NON-HISPANIC,23,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2793,1,Waves3+4,Male,Unknown,UNKNOWN,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2085,6,Waves1+2,Male,Black,,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2638,1,Waves3+4,Female,White,NON-HISPANIC,43,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2712,1,Waves3+4,Male,Declined,DECLINED,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2070,2,Waves1+2,Female,,,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2358,1,Waves1+2,Female,White,NON-HISPANIC,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2184,1,Waves1+2,Female,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2664,5,Waves3+4,Male,Black,,49,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2344,1,Waves1+2,Female,White,NON-HISPANIC,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2658,1,Waves3+4,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2067,1,Both,Female,White,NON-HISPANIC,10,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2064,5,Waves1+2,Female,,,42,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2382,2,Waves1+2,Female,White,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2200,3,Waves1+2,Male,,,48,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2784,6,Waves3+4,Female,Black,,45,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2711,1,Waves3+4,Female,White,NON-HISPANIC,79,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2685,1,Waves3+4,Female,White,NON-HISPANIC,53,Cervical Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2812,1,Waves3+4,Female,White,NON-HISPANIC,57,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2437,1,Waves1+2,Female,White,NON-HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2605,6,Waves3+4,Female,,HISPANIC,49,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2606,1,Waves3+4,Male,White,NON-HISPANIC,34,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2695,8,Waves3+4,Male,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2806,5,Waves3+4,Male,White,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2519,7,Waves1+2,Male,,,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2603,1,Waves3+4,Male,White,NON-HISPANIC,41,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2834,1,Waves3+4,Male,White,NON-HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2348,4,Waves1+2,Female,,,52,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2529,2,Waves1+2,Male,,,68,Melanoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2810,5,Waves3+4,Female,White,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2157,1,Both,Male,White,NON-HISPANIC,34,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2272,1,Waves1+2,Male,White,NON-HISPANIC,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2824,8,Waves3+4,Male,Asian,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2744,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2780,1,Waves3+4,Female,White,UNKNOWN,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2489,1,Waves1+2,Female,White,NON-HISPANIC,83,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2301,1,Waves1+2,Male,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2697,1,Waves3+4,Male,White,NON-HISPANIC,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2703,1,Waves3+4,Male,White,NON-HISPANIC,43,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2373,4,Waves1+2,Male,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2731,1,Waves3+4,Male,White,NON-HISPANIC,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2113,7,Waves1+2,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2589,3,Waves1+2,Male,,,38,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2247,1,Waves1+2,Female,White,NON-HISPANIC,72,Non-Hodgkins Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2774,3,Waves3+4,Female,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2828,2,Waves3+4,Male,White,NON-HISPANIC,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2400,5,Waves1+2,Male,,,80,Mature B-Cell Neoplasm,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2433,1,Both,Female,White,NON-HISPANIC,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2672,1,Waves3+4,Female,White,NON-HISPANIC,83,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2159,2,Waves1+2,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2700,1,Waves3+4,Male,White,NON-HISPANIC,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2257,3,Waves1+2,Female,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2391,1,Waves1+2,Female,White,NON-HISPANIC,55,Hodgkin Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2076,1,Waves1+2,Female,White,NON-HISPANIC,66,Uterine Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2399,2,Waves1+2,Male,White,HISPANIC,38,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2721,1,Waves3+4,Female,White,NON-HISPANIC,76,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2405,2,Waves1+2,Female,,,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2434,1,Waves1+2,Female,White,NON-HISPANIC,28,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2785,1,Waves3+4,Female,White,NON-HISPANIC,14,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2098,1,Waves1+2,Female,White,HISPANIC,1,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2163,6,Waves1+2,Female,White,NON-HISPANIC,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2270,2,Waves1+2,Female,,,30,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2577,3,Waves1+2,Male,,,23,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2116,2,Waves1+2,Male,,NON-HISPANIC,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2337,1,Waves1+2,Male,White,NON-HISPANIC,79,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2617,1,Waves3+4,Male,White,NON-HISPANIC,21,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2359,3,Waves1+2,Male,,,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2347,6,Waves1+2,Male,White,,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2702,8,Waves3+4,Male,,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2802,7,Waves3+4,Male,White,,58,Lung Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2688,1,Waves3+4,Male,White,NON-HISPANIC,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2782,1,Waves3+4,Male,White,NON-HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2302,1,Waves1+2,Male,White,NON-HISPANIC,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2023,4,Waves1+2,Male,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2325,4,Waves1+2,Male,,,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2636,5,Waves3+4,Female,Black,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2022,2,Waves1+2,Female,,,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2439,3,Waves1+2,Female,,,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2668,1,Waves3+4,Female,White,HISPANIC,35,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2117,1,Waves1+2,Male,White,NON-HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2727,1,Waves3+4,Female,White,NON-HISPANIC,0,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2681,5,Waves3+4,Male,,,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2326,1,Waves1+2,Male,White,NON-HISPANIC,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2622,5,Waves3+4,Female,White,,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2155,1,Waves1+2,Male,White,NON-HISPANIC,24,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2027,4,Waves1+2,Male,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2232,1,Waves1+2,Male,White,NON-HISPANIC,76,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2289,2,Waves1+2,Female,,,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2485,2,Waves1+2,Male,Unknown,,73,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2031,3,Waves1+2,Male,,,36,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2468,1,Waves1+2,Female,White,NON-HISPANIC,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2277,6,Waves1+2,Female,White,,81,Rectal Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2462,3,Waves1+2,Male,,,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2153,6,Waves1+2,Female,Black,NON-HISPANIC,45,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2493,3,Waves1+2,Male,White,,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2759,1,Waves3+4,Male,White,NON-HISPANIC,39,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2264,7,Waves1+2,Male,,,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2365,3,Waves1+2,Male,,,39,T lymphoblastic leukaemia/lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2045,1,Waves1+2,Male,White,NON-HISPANIC,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2127,2,Waves1+2,Female,,,51,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2185,3,Waves1+2,Male,,,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2790,2,Waves3+4,Female,White,,49,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2686,1,Waves3+4,Male,White,NON-HISPANIC,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2671,7,Waves3+4,Male,Black,,29,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2463,1,Waves1+2,Male,White,NON-HISPANIC,29,Non-Hodgkins Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2699,2,Waves3+4,Male,White,,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2101,5,Waves1+2,Male,,,87,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2481,2,Waves1+2,Male,White,,65,Skin cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2667,8,Waves3+4,Female,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2380,1,Waves1+2,Male,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2131,5,Both,Male,,,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2628,2,Waves3+4,Female,White,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2659,5,Waves3+4,Female,White,,52,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2764,5,Waves3+4,Female,White,,76,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2742,3,Waves3+4,Female,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2687,1,Waves3+4,Female,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2297,2,Waves1+2,Female,Unknown,,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2572,2,Waves1+2,Female,White,,60,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2310,3,Waves1+2,Male,,,67,Skin cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2162,3,Waves1+2,Male,,,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2613,1,Waves3+4,Male,White,NON-HISPANIC,79,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2058,3,Waves1+2,Female,,,49,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2555,2,Waves1+2,Female,White,,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2044,1,Waves1+2,Female,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2318,3,Waves1+2,Female,,,33,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2288,3,Waves1+2,Female,,,68,Not specified,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2798,1,Waves3+4,Male,White,NON-HISPANIC,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2623,1,Waves3+4,Female,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2000,2,Waves1+2,Male,,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2259,1,Waves1+2,Male,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2032,5,Waves1+2,Female,,,43,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2583,2,Waves1+2,Male,,,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2767,6,Waves3+4,Male,Unknown,HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2389,1,Waves1+2,Male,White,NON-HISPANIC,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2595,1,Waves3+4,Male,Declined,UNKNOWN,0,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2442,3,Waves1+2,Male,,,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2803,3,Waves3+4,Male,,,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2144,4,Waves1+2,Male,,,83,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2547,6,Waves1+2,Female,,,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2737,1,Waves3+4,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2551,1,Waves1+2,Male,White,NON-HISPANIC,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2115,1,Waves1+2,Female,White,NON-HISPANIC,35,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2385,2,Waves1+2,Male,,,35,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2451,1,Waves1+2,Male,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2049,3,Waves1+2,Male,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2740,2,Waves3+4,Male,White,,20,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2725,1,Waves3+4,Male,White,NON-HISPANIC,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2473,1,Waves1+2,Male,White,NON-HISPANIC,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2028,1,Waves1+2,Female,White,NON-HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2398,7,Waves1+2,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2386,1,Waves1+2,Male,White,HISPANIC,8,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2286,1,Waves1+2,Male,Unknown,UNKNOWN,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2751,1,Waves3+4,Female,Asian,NON-HISPANIC,38,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2458,2,Waves1+2,Male,,,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2419,2,Waves1+2,Male,,,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2042,4,Waves1+2,Male,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2456,2,Waves1+2,Female,White,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2813,2,Waves3+4,Male,Asian,,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2804,1,Waves3+4,Male,White,NON-HISPANIC,30,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2765,1,Waves3+4,Female,White,NON-HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2611,1,Waves3+4,Male,White,NON-HISPANIC,69,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2491,3,Both,Female,,,57,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2797,5,Waves3+4,Male,White,,63,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2204,1,Waves1+2,Female,Asian,NON-HISPANIC,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2248,4,Waves1+2,Male,,,71,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2739,1,Waves3+4,Female,White,NON-HISPANIC,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2221,2,Waves1+2,Female,Unknown,,40,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2777,1,Waves3+4,Female,White,NON-HISPANIC,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2515,7,Waves1+2,Male,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2091,1,Waves1+2,Female,White,UNKNOWN,2,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2220,1,Both,Male,White,NON-HISPANIC,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2234,2,Waves1+2,Male,White,,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2675,2,Waves3+4,Male,,,69,Basal Cell Carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2561,1,Waves1+2,Male,White,NON-HISPANIC,5,B lymphoblastic leukaemia/lymphoma with t(v;11q23); MLL rearranged,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2827,5,Waves3+4,Male,,,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2418,1,Waves1+2,Female,White,NON-HISPANIC,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2060,1,Waves1+2,Female,White,NON-HISPANIC,35,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2403,1,Waves1+2,Male,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2432,5,Waves1+2,Male,,,71,Non-Hodgkins Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2492,1,Both,Female,White,NON-HISPANIC,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2089,1,Waves1+2,Female,White,NON-HISPANIC,69,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2180,5,Waves1+2,Male,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2214,2,Waves1+2,Male,Unknown,,75,Prostate Cancer|Renal cell carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2578,1,Waves1+2,Female,White,NON-HISPANIC,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2197,5,Waves1+2,Female,White,,42,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2252,4,Waves1+2,Female,,,79,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2072,5,Waves1+2,Female,,,83,Squamous cell carcinoma|Lung Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2213,1,Waves1+2,Female,Asian,NON-HISPANIC,26,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2038,1,Waves1+2,Male,White,NON-HISPANIC,24,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2649,1,Waves3+4,Male,White,NON-HISPANIC,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2677,5,Waves3+4,Male,White,,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2532,1,Waves1+2,Female,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2726,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2781,1,Waves3+4,Female,White,NON-HISPANIC,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2749,1,Waves3+4,Female,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2750,1,Waves3+4,Male,White,UNKNOWN,57,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2114,1,Waves1+2,Female,White,NON-HISPANIC,16,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2522,5,Waves1+2,Female,,HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2415,1,Waves1+2,Male,White,NON-HISPANIC,65,Pancreatic adenocarcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2133,1,Waves1+2,Male,White,NON-HISPANIC,10,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2175,5,Waves1+2,Male,,,80,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2244,1,Waves1+2,Female,White,NON-HISPANIC,82,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2598,1,Waves3+4,Male,White,NON-HISPANIC,75,Melanoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2795,3,Waves3+4,,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2103,4,Waves1+2,Female,,,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2026,4,Waves1+2,Female,,,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2402,2,Waves1+2,Female,Unknown,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2111,1,Waves1+2,Male,White,NON-HISPANIC,40,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2182,1,Waves1+2,Male,White,HISPANIC,34,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2593,2,Waves3+4,Female,,,83,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2051,1,Waves1+2,Female,White,NON-HISPANIC,40,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2506,1,Waves1+2,Male,White,NON-HISPANIC,14,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2135,2,Waves1+2,Male,,,77,Lung Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2097,1,Waves1+2,Female,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2034,2,Both,Female,White,NON-HISPANIC,61,Follicular lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2364,1,Waves1+2,Female,White,NON-HISPANIC,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2303,1,Waves1+2,Male,White,NON-HISPANIC,25,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2430,1,Waves1+2,Female,White,NON-HISPANIC,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2242,2,Waves1+2,Male,,,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2158,2,Waves1+2,Female,Black,,52,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2396,4,Waves1+2,Male,,,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2518,1,Waves1+2,Male,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2510,1,Waves1+2,Female,White,NON-HISPANIC,36,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2461,3,Waves1+2,Male,,,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2585,5,Waves1+2,Male,,,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2717,1,Waves3+4,Female,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2825,1,Waves3+4,Female,White,NON-HISPANIC,79,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2130,4,Waves1+2,Male,,,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2714,1,Waves3+4,Female,White,NON-HISPANIC,36,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2730,3,Waves3+4,Male,White,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2371,3,Waves1+2,Male,,,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2304,3,Waves1+2,Female,,,24,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2422,3,Waves1+2,Male,,,42,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2624,5,Waves3+4,Male,White,,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2690,5,Waves3+4,Male,,HISPANIC,87,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2217,5,Waves1+2,Female,,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2342,3,Waves1+2,Female,,,48,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2627,7,Waves3+4,Female,White,,68,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2057,1,Waves1+2,Male,White,NON-HISPANIC,86,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2173,1,Waves1+2,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2379,2,Waves1+2,Female,White,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2053,1,Waves1+2,Female,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2050,1,Waves1+2,Male,Asian,NON-HISPANIC,37,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2052,1,Waves1+2,Male,White,HISPANIC,12,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2476,1,Waves1+2,Female,White,NON-HISPANIC,27,Juvenile pilocytic astrocytoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2778,1,Waves3+4,Female,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2305,1,Waves1+2,Female,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2676,1,Waves3+4,Male,White,NON-HISPANIC,20,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2227,1,Waves1+2,Male,White,NON-HISPANIC,37,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2010,3,Waves1+2,Female,,,52,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2146,6,Waves1+2,Male,,NON-HISPANIC,72,Lung Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2814,1,Waves3+4,Female,White,DECLINED,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2705,8,Waves3+4,Female,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2367,2,Waves1+2,Male,,HISPANIC,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2231,3,Waves1+2,Male,,,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2831,3,Waves3+4,Female,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2587,5,Waves1+2,Female,,,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2194,1,Waves1+2,Female,Multiracial,HISPANIC,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2013,4,Waves1+2,Female,,,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2059,1,Waves1+2,Male,Unknown,HISPANIC,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2121,2,Waves1+2,Female,White,,32,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2588,1,Waves1+2,Female,White,NON-HISPANIC,40,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2701,3,Waves3+4,Male,,,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2105,2,Waves1+2,Male,,,21,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2292,2,Waves1+2,Female,Unknown,,52,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2642,2,Waves3+4,Male,White,NON-HISPANIC,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2490,1,Both,Female,White,NON-HISPANIC,48,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2201,4,Waves1+2,Male,White,,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2222,2,Waves1+2,Female,,HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2355,1,Waves1+2,Female,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2579,2,Waves1+2,Female,,,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2758,1,Waves3+4,Male,White,NON-HISPANIC,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2584,3,Waves1+2,Female,,,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2719,1,Waves3+4,Male,White,NON-HISPANIC,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2447,3,Waves1+2,Male,,,58,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2246,5,Waves1+2,Male,,,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2014,1,Waves1+2,Female,White,NON-HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2375,2,Waves1+2,Female,White,NON-HISPANIC,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2019,5,Waves1+2,Male,,,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2312,1,Waves1+2,Female,Multiracial,NON-HISPANIC,53,Other malignant neoplasm without specification of site,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2512,2,Waves1+2,Male,,,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2254,4,Waves1+2,Female,,,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2069,1,Waves1+2,Female,White,NON-HISPANIC,29,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2537,3,Waves1+2,Female,,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2535,1,Waves1+2,Male,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2265,2,Waves1+2,Male,,,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2209,7,Waves1+2,Male,White,,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2033,6,Waves1+2,Female,,HISPANIC,34,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2203,6,Waves1+2,Female,White,NON-HISPANIC,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2020,2,Waves1+2,Female,,,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2704,2,Waves3+4,Male,White,NON-HISPANIC,38,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2195,2,Waves1+2,Male,Unknown,,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2641,1,Waves3+4,Male,White,NON-HISPANIC,65,Melanoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2334,1,Waves1+2,Male,White,NON-HISPANIC,85,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2829,5,Waves3+4,Female,White,,62,Fallopian Tube Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2150,1,Waves1+2,Female,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2796,3,Waves3+4,Male,,,33,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2773,1,Waves3+4,Female,White,NON-HISPANIC,73,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2501,1,Waves1+2,Male,White,NON-HISPANIC,56,Other malignant neoplasm without specification of site,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2574,3,Waves1+2,Male,,,41,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2169,4,Waves1+2,Male,,,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2176,4,Waves1+2,Female,,,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2643,5,Waves3+4,Male,White,,57,Rectal Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2314,1,Waves1+2,Female,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2151,4,Waves1+2,Male,,,57,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2285,2,Waves1+2,Male,Unknown,,42,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2062,5,Waves1+2,Female,,,64,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2454,1,Waves1+2,Female,White,NON-HISPANIC,71,Thyroid Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2226,1,Waves1+2,Female,White,NON-HISPANIC,74,Acute Myeloid Leukemia,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2178,4,Waves1+2,Male,,,84,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2523,2,Waves1+2,Male,White,NON-HISPANIC,74,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2511,5,Waves1+2,Male,,,62,Non-Hodgkins Lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2696,1,Waves3+4,Female,White,NON-HISPANIC,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2191,1,Waves1+2,Female,White,NON-HISPANIC,42,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2594,1,Waves3+4,Female,White,NON-HISPANIC,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2106,1,Waves1+2,Male,White,NON-HISPANIC,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2634,5,Waves3+4,Male,White,,84,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2164,1,Waves1+2,Female,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2457,4,Waves1+2,Male,,,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2376,3,Waves1+2,Male,,,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2206,5,Waves1+2,Male,White,,64,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2416,1,Waves1+2,Male,White,NON-HISPANIC,62,Melanoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2591,1,Waves1+2,Male,White,NON-HISPANIC,59,Bladder Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2550,3,Waves1+2,Female,,,39,Leiomyosarcoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2508,1,Waves1+2,Female,White,NON-HISPANIC,38,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2651,1,Waves3+4,Female,White,NON-HISPANIC,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2833,1,Waves3+4,Female,White,NON-HISPANIC,74,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2801,1,Waves3+4,Male,White,NON-HISPANIC,68,Dupuytren's|Skin cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2835,2,Waves3+4,Female,White,,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2820,7,Waves3+4,Female,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2753,1,Waves3+4,Male,White,NON-HISPANIC,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2123,2,Waves1+2,Male,,,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2186,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2411,1,Waves1+2,Female,Declined,HISPANIC,14,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2394,1,Waves1+2,Male,White,NON-HISPANIC,23,Mediastinum mass,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2243,3,Waves1+2,Female,,,73,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2041,2,Waves1+2,Female,White,,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2145,1,Waves1+2,Female,White,NON-HISPANIC,37,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2268,1,Waves1+2,Female,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2323,2,Waves1+2,Female,Unknown,,42,Cervical Cancer|Pituitary Tumor,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2645,1,Waves3+4,Female,Declined,NON-HISPANIC,45,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2471,1,Waves1+2,Female,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2678,6,Waves3+4,Male,White,HISPANIC,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2640,2,Waves3+4,Female,White,,76,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2620,1,Waves3+4,Female,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2644,2,Waves3+4,Female,White,,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2172,1,Waves1+2,Female,White,NON-HISPANIC,63,Cervical Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2783,1,Waves3+4,Male,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2604,1,Waves3+4,Female,Unknown,HISPANIC,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2566,1,Waves1+2,Female,White,NON-HISPANIC,10,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2830,3,Waves3+4,Male,,,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2809,8,Waves3+4,Female,White,NON-HISPANIC,21,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2748,7,Waves3+4,Female,White,NON-HISPANIC,26,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2652,8,Waves3+4,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2099,1,Waves1+2,Male,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2330,1,Waves1+2,Male,Black,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2054,1,Waves1+2,Female,White,NON-HISPANIC,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2384,1,Waves1+2,Male,White,NON-HISPANIC,72,Colon Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2821,3,Waves3+4,Female,,,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2362,5,Waves1+2,Female,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2565,2,Waves1+2,Female,White,NON-HISPANIC,63,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2590,1,Waves1+2,Male,White,NON-HISPANIC,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2319,4,Waves1+2,Male,White,,70,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2181,1,Waves1+2,Female,White,HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2602,5,Waves3+4,Female,White,,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2786,3,Waves3+4,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2266,6,Waves1+2,Male,,,67,Not specified,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2683,2,Waves3+4,Male,Unknown,,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2559,4,Waves1+2,Female,,,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2188,4,Waves1+2,Male,,,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2224,1,Waves1+2,Female,White,NON-HISPANIC,52,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2629,1,Waves3+4,Male,White,NON-HISPANIC,35,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2609,8,Waves3+4,Male,White,NON-HISPANIC,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2238,1,Waves1+2,Male,White,NON-HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2317,4,Waves1+2,Female,,,34,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2569,1,Waves1+2,Male,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2225,4,Waves1+2,Male,White,NON-HISPANIC,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2544,6,Waves1+2,Male,,,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2488,1,Waves1+2,Male,White,NON-HISPANIC,37,Not specified,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2357,1,Waves1+2,Female,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2502,2,Waves1+2,Female,,HISPANIC,77,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2296,3,Waves1+2,Female,,,71,Pyoderma Gangrenosum,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2168,3,Waves1+2,Female,,,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2554,1,Waves1+2,Male,White,NON-HISPANIC,72,Other malignant neoplasm without specification of site,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2202,1,Waves1+2,Male,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2279,3,Waves1+2,Male,,,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2068,1,Waves1+2,Female,White,NON-HISPANIC,58,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2514,2,Waves1+2,Female,White,,54,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2137,1,Waves1+2,Male,White,NON-HISPANIC,54,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2500,1,Both,Male,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2466,2,Both,Male,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2360,1,Waves1+2,Female,White,NON-HISPANIC,34,Pituitary macroadenoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2333,2,Waves1+2,Male,White,,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2001,5,Waves1+2,Male,,,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2484,1,Waves1+2,Male,White,NON-HISPANIC,39,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2655,1,Waves3+4,Female,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2630,3,Waves3+4,Male,White,,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2061,2,Waves1+2,Female,White,,22,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2768,7,Waves3+4,Female,White,,29,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2078,6,Waves1+2,Male,White,,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2770,5,Waves3+4,Male,White,,27,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2648,5,Waves3+4,Male,White,,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2707,1,Waves3+4,Male,PacificIslander,NON-HISPANIC,22,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2741,1,Waves3+4,Female,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2637,5,Waves3+4,Female,White,,62,Melanoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2732,1,Waves3+4,Male,White,NON-HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2665,1,Waves3+4,Female,Asian,NON-HISPANIC,76,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2794,7,Waves3+4,Male,White,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2110,1,Waves1+2,Female,White,NON-HISPANIC,48,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2426,1,Waves1+2,Female,White,NON-HISPANIC,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2331,1,Waves1+2,Male,White,NON-HISPANIC,62,Squamous cell carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2136,1,Waves1+2,Female,White,NON-HISPANIC,77,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2557,2,Waves1+2,Male,Black,,73,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2650,1,Waves3+4,Female,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2498,1,Waves1+2,Male,White,NON-HISPANIC,83,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2308,4,Waves1+2,Female,,,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2161,6,Waves1+2,Male,,HISPANIC,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2417,1,Waves1+2,Male,White,NON-HISPANIC,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2282,6,Waves1+2,Female,White,HISPANIC,39,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2120,1,Waves1+2,Female,White,NON-HISPANIC,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2315,7,Waves1+2,Female,Black,,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2102,2,Waves1+2,Female,,,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2477,4,Waves1+2,Male,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2788,1,Waves3+4,Male,White,NON-HISPANIC,75,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2592,1,Waves1+2,Male,Black,NON-HISPANIC,49,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2409,2,Waves1+2,Female,,,67,Acute Myeloid Leukemia,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2260,1,Waves1+2,Male,White,NON-HISPANIC,85,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2807,1,Waves3+4,Male,Unknown,UNKNOWN,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2516,1,Waves1+2,Male,White,NON-HISPANIC,65,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2538,1,Waves1+2,Male,White,NON-HISPANIC,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2236,1,Waves1+2,Male,Multiracial,HISPANIC,32,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2771,1,Waves3+4,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2560,2,Waves1+2,Male,,,74,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2219,1,Waves1+2,Male,White,NON-HISPANIC,67,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2183,4,Waves1+2,Male,White,,69,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2216,3,Both,Male,,,74,Bladder Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2513,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2817,5,Waves3+4,Male,White,,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2283,2,Waves1+2,Male,,,81,Colon Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2424,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2616,1,Waves3+4,Female,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2387,1,Waves1+2,Female,White,NON-HISPANIC,2,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2066,1,Waves1+2,Female,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2291,1,Waves1+2,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2453,1,Waves1+2,Male,White,NON-HISPANIC,76,Basal Cell Carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2455,3,Waves1+2,Female,,,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2526,1,Waves1+2,Male,White,NON-HISPANIC,65,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2479,1,Waves1+2,Female,White,NON-HISPANIC,60,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2527,7,Waves1+2,Female,,,,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2198,4,Waves1+2,Female,,,71,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2119,1,Waves1+2,Male,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2077,3,Waves1+2,Female,,,71,Follicular lymphoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2309,1,Waves1+2,Female,White,NON-HISPANIC,29,Basal Cell Carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2167,2,Waves1+2,Male,,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2734,1,Waves3+4,Female,White,NON-HISPANIC,75,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2269,1,Waves1+2,Male,White,NON-HISPANIC,11,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2608,6,Waves3+4,Female,White,NON-HISPANIC,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2383,6,Waves1+2,Female,White,,73,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2354,3,Waves1+2,Female,,,44,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2341,1,Waves1+2,Female,White,NON-HISPANIC,46,Anaplastic Astrocytoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2581,1,Waves1+2,Female,White,NON-HISPANIC,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2710,1,Waves3+4,Male,White,NON-HISPANIC,70,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2568,5,Waves1+2,Male,White,NON-HISPANIC,85,Not specified,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2540,1,Waves1+2,Male,Multiracial,HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2370,2,Waves1+2,Male,,,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2043,1,Waves1+2,Female,White,NON-HISPANIC,36,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2571,5,Waves1+2,Female,,,81,Bladder Cancer|Ovarian cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2436,6,Waves1+2,Male,White,,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2542,1,Waves1+2,Male,White,NON-HISPANIC,73,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2475,6,Both,Male,White,,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2736,1,Waves3+4,Female,White,NON-HISPANIC,39,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2256,1,Waves1+2,Male,White,NON-HISPANIC,57,Basal Cell Carcinoma,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2520,1,Waves1+2,Male,White,NON-HISPANIC,81,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2329,5,Waves1+2,Female,,,42,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2738,1,Waves3+4,Female,White,NON-HISPANIC,47,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2772,1,Waves3+4,Male,White,NON-HISPANIC,78,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2746,5,Waves3+4,Male,White,,,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2832,1,Waves3+4,Female,White,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2125,2,Waves1+2,Male,Black,NON-HISPANIC,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2576,4,Waves1+2,Male,,,74,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2549,3,Waves1+2,Female,,,66,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2743,1,Waves3+4,Male,White,NON-HISPANIC,68,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2233,1,Waves1+2,Male,White,NON-HISPANIC,68,Skin cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2081,1,Waves1+2,Female,White,NON-HISPANIC,7,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2482,4,Waves1+2,Female,,,72,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2075,1,Waves1+2,Male,White,NON-HISPANIC,55,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2141,1,Waves1+2,Female,White,NON-HISPANIC,66,Breast Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2787,1,Waves3+4,Male,Unknown,NON-HISPANIC,83,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2311,6,Waves1+2,Female,,HISPANIC,64,Endometrial cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2713,2,Waves3+4,Male,,HISPANIC,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2597,5,Waves3+4,Female,White,,63,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2763,1,Waves3+4,Male,White,UNKNOWN,63,Prostate Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2421,1,Waves1+2,Female,White,NON-HISPANIC,68,Colon Cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2431,1,Waves1+2,Female,White,NON-HISPANIC,61,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2408,2,Waves1+2,Female,,,33,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2229,1,Waves1+2,Male,White,NON-HISPANIC,53,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2029,1,Waves1+2,Female,White,NON-HISPANIC,46,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2441,1,Waves1+2,Male,White,NON-HISPANIC,59,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2679,1,Waves3+4,Female,White,NON-HISPANIC,82,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2619,1,Waves3+4,Male,White,NON-HISPANIC,56,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2139,1,Waves1+2,Female,White,NON-HISPANIC,81,Skin cancer,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2499,4,Waves1+2,Female,,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2016,4,Waves1+2,Male,,,21,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2618,1,Waves3+4,Male,White,NON-HISPANIC,30,Dyskeratosis congenita,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2754,1,Waves3+4,Male,Black,NON-HISPANIC,51,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2250,1,Waves1+2,Male,White,HISPANIC,50,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2693,1,Waves3+4,Male,White,NON-HISPANIC,31,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
+2079,2,Waves1+2,Male,,,62,,https://www.sciencedirect.com/science/article/pii/S1535610822003129
