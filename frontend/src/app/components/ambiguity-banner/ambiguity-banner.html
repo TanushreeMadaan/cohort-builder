@@ -1,0 +1,15 @@
+<div *ngIf="ambiguities.length" class="warning">
+    <mat-icon>warning</mat-icon>
+    <strong>Ambiguities detected</strong>
+    <ul>
+      <li *ngFor="let a of ambiguities">{{ a }}</li>
+    </ul>
+  </div>
+  
+  <div *ngIf="assumptions.length" class="assumptions">
+    <strong>Assumptions made</strong>
+    <ul>
+      <li *ngFor="let a of assumptions">{{ a }}</li>
+    </ul>
+  </div>
+  

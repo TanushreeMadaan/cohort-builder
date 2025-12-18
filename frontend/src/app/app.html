@@ -1,0 +1,20 @@
+<h1>Cohort Builder</h1>
+
+<app-search-bar (searchQuery)="runQuery($event)"></app-search-bar>
+
+<app-filter-chips
+  *ngIf="response"
+  [filters]="response.filters"
+  (removeFilter)="removeFilter($event)"
+  (clearAll)="clearAllFilters()">
+</app-filter-chips>
+
+<app-ambiguity-banner
+  *ngIf="response"
+  [ambiguities]="response.ambiguities"
+  [assumptions]="response.assumptions">
+</app-ambiguity-banner>
+
+<app-stats-summary *ngIf="response" [stats]="response.stats"></app-stats-summary>
+
+<app-results-table *ngIf="response" [results]="response.results"></app-results-table>

@@ -1,0 +1,55 @@
+<div *ngIf="dataSource.data.length; else empty">
+
+    <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z2">
+  
+      <ng-container matColumnDef="patient_id">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+          Patient ID
+        </th>
+        <td mat-cell *matCellDef="let r">{{ r.patient_id }}</td>
+      </ng-container>
+  
+      <ng-container matColumnDef="gender">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+          Gender
+        </th>
+        <td mat-cell *matCellDef="let r">{{ r.gender }}</td>
+      </ng-container>
+  
+      <ng-container matColumnDef="age_at_diagnosis">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+          Age (Dx)
+        </th>
+        <td mat-cell *matCellDef="let r">{{ r.age_at_diagnosis }}</td>
+      </ng-container>
+  
+      <ng-container matColumnDef="age_at_specimen_acquisition">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+          Age (Specimen)
+        </th>
+        <td mat-cell *matCellDef="let r">{{ r.age_at_specimen_acquisition }}</td>
+      </ng-container>
+  
+      <ng-container matColumnDef="specimen_type">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+          Specimen
+        </th>
+        <td mat-cell *matCellDef="let r">{{ r.specimen_type }}</td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  
+    <mat-paginator
+      [pageSize]="10"
+      [pageSizeOptions]="[5, 10, 25, 50]"
+      showFirstLastButtons>
+    </mat-paginator>
+  
+  </div>
+  
+  <ng-template #empty>
+    <p>No results found.</p>
+  </ng-template>
+  

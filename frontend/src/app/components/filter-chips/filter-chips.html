@@ -1,0 +1,17 @@
+<div *ngIf="keys().length">
+
+  <mat-chip-set>
+    <mat-chip
+      *ngFor="let key of keys()"
+      removable
+      (removed)="removeFilter.emit(key)">
+      {{ formatFilter(key, filters[key]) }}
+      <mat-icon matChipRemove>cancel</mat-icon>
+    </mat-chip>
+  </mat-chip-set>
+
+  <button mat-button color="warn" (click)="clearAll.emit()">
+    Clear all
+  </button>
+
+</div>
